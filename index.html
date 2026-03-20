@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio | Mariana Hernández</title>
-    <link type="image/x-icon" rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -16,33 +13,32 @@
 
   <body>
     <header class="header">
-      <div class="logo"></div>
+      <div class="header__content">
+        <div class="header__title">
+          <h1>Mariana Hernández</h1>
+        </div>
 
-      <div class="header__title">
-        <h1>Mariana Hernández</h1>
-      </div>
-      <div class="header__skills">
-        Desarrolladora Full-Stack Junior | TypeScript, React, Node.js
-      </div>
+        <div class="header__skills">
+          Desarrolladora Full-Stack Junior | TypeScript, React, Node.js
+        </div>
 
-      <div class="header__description">
-        Desarrolladora web junior con experiencia práctica creando interfaces
-        limpias y responsivas con HTML, CSS, JavaScript y React, así como
-        implementando lógica básica de back-end. Ha trabajado en proyectos
-        formativos que siguen procesos reales de desarrollo, usando Git, GitHub
-        y Figma. Disfruta colaborar en equipo, mantener un código claro y
-        resolver problemas de forma estructurada. Motivada por seguir
-        aprendiendo, asumir nuevos retos y aprovechar oportunidades para crecer
-        como desarrolladora.
-      </div>
+        <div class="header__description">
+          Desarrolladora web junior con experiencia práctica creando interfaces limpias y responsivas
+          con HTML, CSS, JavaScript y React, así como implementando lógica básica de back-end. Ha
+           trabajado en proyectos formativos que siguen procesos reales de desarrollo, usando Git,
+            GitHub y Figma. Disfruta colaborar en equipo, mantener un código claro y resolver problemas
+             de forma estructurada. Motivada por seguir aprendiendo, asumir nuevos retos y aprovechar
+              oportunidades para crecer como desarrolladora.
+        </div>
 
-      <nav class="nav">
-        <ul class="nav__links">
-          <li><a href="#" class="nav__link">Descargar CV</a></li>
-          <li><a href="#" class="nav__link">Enlace a GitHub</a></li>
-          <li><a href="#" class="nav__link">Hablemos</a></li>
-        </ul>
-      </nav>
+        <nav class="nav">
+          <ul class="nav__links">
+            <li><a href="#" class="nav__link">Descargar CV</a></li>
+            <li><a href="#" class="nav__link">Enlace a GitHub</a></li>
+            <li><a href="#" class="nav__link">Hablemos</a></li>
+          </ul>
+        </nav>
+      </div>
 
       <img
         class="header__image"
@@ -52,8 +48,6 @@
     </header>
 
     <main>
-      <section class="hero"></section>
-
       <section class="skills">
         <h2>Habilidades y herramientas</h2>
 
@@ -72,25 +66,14 @@
 
         <div class="projects__grid">
           <article class="card">
-            <img src="images/cofee-project.png" alt="Proyecto de cafetería" />
-
+            <img src="./images/cofee-project.png" alt="Proyecto cafetería" />
             <h3>Página web de una cafetería</h3>
-
-            <p>
-              Desarrollo de una landing page responsiva para una cafetería
-              siguiendo un brief de diseño. Incluye estructura semántica,
-              maquetación con Flexbox, creación de secciones nuevas y un
-              formulario de contacto funcional. Logro: Implementé desde cero el
-              diseño completo de la página, organicé el proyecto con buenas
-              prácticas y publiqué la versión final utilizando GitHub Pages.
-            </p>
+            <p>Descripción del proyecto...</p>
           </article>
 
           <article class="card">
-            <img src="images/mi-proyecto-image.png" alt="Imagen de mi proyecto" />
-
+            <img src="./images/mi-proyecto-image.png" alt="Proyecto" />
             <h3>Mi proyecto</h3>
-
             <p>Descripción del proyecto.</p>
           </article>
         </div>
@@ -100,18 +83,16 @@
     <footer class="footer">
       <p>Contacto</p>
 
-      <nav class="nav">
-        <a href="mailto:student@tripleten.com" class="footer__email">
-          student@tripleten.com
-        </a>
-      </nav>
+      <a href="mailto:student@tripleten.com" class="footer__email">
+        student@tripleten.com
+      </a>
 
       <div class="footer__media-logos">
         <div class="skills__icons">
-          <img src="./images/icon-linkedin.png" alt="LinkedIn" />
-          <img src="./images/icon-facebook.png" alt="Facebook" />
-          <img src="./images/icon-instagram.png" alt="Instagram" />
-          <img src="./images/icon-x.png" alt="X" />
+          <img src="./images/icon-linkedin.png" />
+          <img src="./images/icon-facebook.png" />
+          <img src="./images/icon-instagram.png" />
+          <img src="./images/icon-x.png" />
         </div>
       </div>
     </footer>
