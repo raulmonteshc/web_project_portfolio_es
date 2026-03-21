@@ -1,0 +1,31 @@
+.footer {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 44px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-image:
+    radial-gradient(circle at center, rgba(122, 92, 255, 0.32), transparent 26%),
+    radial-gradient(circle at center, rgba(122, 92, 255, 0.12), transparent 48%);
+}
+
+.footer__email {
+  color: #6c63ff;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer__email:hover{
+  opacity: 0.5;
+}
+
+.footer__media-logos img {
+  justify-content: space-between;
+  column-gap: 20px;
+  width: 24px;
+  height: 24px;
+
+}
