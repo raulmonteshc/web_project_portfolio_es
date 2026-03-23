@@ -3,26 +3,4 @@ body {
   font-family: "Open Sans", sans-serif;
   color: white;
   background-color: #1f1f22;
-  background-image:
-    radial-gradient(circle at 68% 20%, rgba(110, 90, 255, 0.22), transparent 20%),
-    radial-gradient(circle at 64% 88%, rgba(110, 90, 255, 0.18), transparent 22%),
-    linear-gradient(to right, #1f1f22 0%, #1f1f22 42%, #2b2941 57%, #1f1f22 72%, #1f1f22 100%);
-}
-
-@media (max-width: 900px) {
-  .header {
-    flex-direction: column;
-  }
-
-  .header__content {
-    width: 100%;
-  }
-
-  .header__image {
-    width: 260px;
-  }
-
-  .projects__grid {
-    flex-direction: column;
-  }
 }
