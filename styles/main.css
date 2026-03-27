@@ -4,7 +4,8 @@
 }
 
 .skills h4{
-  font-family:40px;
+  font-family: "Archivo Black";
+  font-size:40px;
   padding-top: 110px;
 }
 
@@ -20,6 +21,7 @@
 }
 
 .projects h2{
+  font-family: "Archivo Black";
   font-size: 40px;
 }
 
@@ -58,7 +60,7 @@
 }
 
 .card h3 {
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Open Sans";
   font-size: 24px;
   margin: 15px;
 }
@@ -99,6 +101,7 @@
 }
 
 .card__info{
+  font-family: "Open Sans";
   display: flex;
   flex-direction: column;
 }
@@ -116,12 +119,31 @@
  height: 40px;
 }
 
+@media screen and (max-width: 1023px){
+  .skills{
+    padding: 0;
+    margin: 0;
+  }
+  .skills h4{
+    margin: 0;
+    padding: 0;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  .skills__icons{
+    padding: 0;
+    margin-bottom: 80px;
+  }
+  .projects__grid{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
 @media screen and (max-width: 767px) {
   main{
     width: 100%;
   }
   .skills h4 {
-  font-family: "Archivo Black";
   font-size: 28px;
   margin: 0;
   padding: 0;
@@ -147,7 +169,6 @@
     gap: 10px;
   }
   .projects h2{
-    font-family: "Archivo Black";
     font-size: 28px;
     margin: 0;
     margin-top: 60px;
@@ -165,7 +186,6 @@
     height: 20px;
   }
   .card h3 {
-    font-family: "Open Sans";
     font-size: 20px;
     margin-left: 20px;
     margin-top: 20px;
@@ -180,7 +200,6 @@
     padding: 0;
   }
   .card__info p {
-    font-family: "Open Sans";
     font-size: 16px;
     align-content: flex-start;
     margin: 10px 20px;
