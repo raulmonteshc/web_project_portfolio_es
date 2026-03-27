@@ -1,6 +1,11 @@
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "archivo Black";
   color: white;
   background-color: #1f1f22;
+  padding: 40px 120px 100px;
+
+  background-image:
+   radial-gradient(900px 900px at calc(50% + 400px) 18%, rgba(109, 109, 255, 0.445), transparent 40%),
+   radial-gradient(900px 900px at 50% 90%, rgba(109, 109, 255, 0.445), transparent 40%);
 }

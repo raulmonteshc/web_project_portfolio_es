@@ -1,20 +1,25 @@
 .footer {
-  font-family: "Archivo Black", sans-serif;
-  font-size: 44px;
   margin-bottom: 30px;
   text-align: center;
-  margin-top: 70px;
-  padding-top: 60px;
-  padding-bottom: 50px;
+  margin-top: 80px;
+}
+
+.footer__contact{
+ font-family: "Archivo Black", "Open Sans";
+ font-size: 44px;
+ margin-bottom: 20px;
 }
 
 
 .footer__email {
+  font-family: "Open Sans";
+  font-style: normal;
   color: #6c63ff;
-  display: block;
   font-size: 18px;
   display: inline-block;
   transition: opacity 0.2s ease;
+  text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .footer__email:hover{
@@ -24,9 +29,7 @@
 .footer__media-logos {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 80px;
-  padding-top: 30px;
 }
 
 .footer__media-logos img {
@@ -40,4 +43,16 @@
 
 .footer__media-logos a:hover {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__contact{
+    font-family: "Archivo Black";
+    font-size: 28px;
+  }
+  .footer__media-logos{
+    max-width: 100%;
+    gap: 40px;
+  }
+
 }
