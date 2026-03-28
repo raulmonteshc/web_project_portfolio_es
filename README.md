@@ -4,8 +4,8 @@ Este proyecto es una **landing page personal (portfolio)** desarrollada con HTML
 
 ## 🚀 Demo
 
-👉 [Ver demo en vivo](#)  
-👉 [Repositorio en GitHub](#)
+👉 [Ver demo en vivo](https://raulmonteshc.github.io/web_project_portfolio_es)  
+👉 [Repositorio en GitHub](https://github.com/raulmonteshc/web_project_portfolio_es)
 
 
 ---
