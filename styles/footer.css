@@ -1,19 +1,17 @@
 .footer {
-  margin-bottom: 30px;
   text-align: center;
   margin-top: 80px;
 }
 
 .footer__contact{
- font-family: "Archivo Black";
+ font-family: "Archivo Black", sans-serif;
  font-size: 44px;
  margin-bottom: 20px;
 }
 
 
 .footer__email {
-  font-family: "Open Sans";
-  font-style: normal;
+  font-family: "Open Sans", sans-serif;
   color: #6c63ff;
   font-size: 18px;
   display: inline-block;
@@ -29,6 +27,7 @@
 .footer__media-logos {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 80px;
 }
 
@@ -43,6 +42,12 @@
 
 .footer__media-logos a:hover {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 1023px){
+ .footer__contact{
+  font-size: 40px;
+ }
 }
 
 @media screen and (max-width: 767px) {
