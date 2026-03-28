@@ -62,10 +62,9 @@ Se utilizaron media queries para adaptar:
 
 ## 📂 Estructura del proyecto
 
-📁 proyecto
-│
-├── 📁 images
-├── 📁 styles
+proyecto/
+├── images/
+├── styles/
 │ └── index.css
 ├── index.html
 └── README.md

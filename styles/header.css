@@ -28,6 +28,9 @@ main,
   font-size: 18px;
   margin-bottom: 20px;
 }
+.header__skills span:first-of-type::after{
+  content: " |";
+}
 
 .header__description {
   color: #d0d0d6;
@@ -48,7 +51,6 @@ main,
 }
 
 .nav__link {
-  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
   color: white;
@@ -84,6 +86,13 @@ main,
   .header__title{
     font-size: 58px;
   }
+  .header__skills span{
+    display: block;
+  }
+  .header__skills span:first-of-type::after{
+  content: "";
+ }
+
   .header__description{
     padding: 0;
     margin-top: 20px;
@@ -115,6 +124,12 @@ main,
  }
  .header__skills{
   font-size: 16px;
+ }
+ .header__skills span{
+    display: block;
+  }
+ .header__skills span:first-of-type::after{
+  content: "";
  }
  .header__description{
   font-size: 16px;
